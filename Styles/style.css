@@ -1,0 +1,177 @@
+/* font style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Banner section */
+
+.banner-section-container {
+  max-width: 1520px;
+  height: 650px;
+
+  background-color: rgb(252, 238, 241);
+}
+.banner-content {
+  display: flex;
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+.banner-text-container {
+  width: 40%;
+  margin-top: 170px;
+  height: 650px;
+}
+
+.banner-text-container button {
+  padding: 10px 20px;
+  background-color: rgb(229, 84, 115);
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.banner-image-container {
+  width: 60%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-image-container img {
+  width: 50%;
+  height: 650px;
+}
+
+/* featured image container style*/
+
+.featured-image-container {
+  width: 80%;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.featured-title-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-image {
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+}
+.first-image,
+.second-image,
+.third-image {
+  width: 450px;
+  height: 530px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px 300px 0 0;
+}
+
+.first-image {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.second-image {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.third-image {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+/* instagram section style */
+
+.instagram-section-container {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.insta-text-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+}
+
+.frist-inta-img {
+  width: 342px;
+  height: 396px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.frist-inta-img img {
+  width: 80%;
+  height: 80%;
+}
+
+.insta-image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 100px;
+}
+
+/* super deal section style */
+
+.super-deal-container {
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/latest-deals-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal-content {
+  text-align: center;
+}
+.deal-content p {
+  margin-bottom: 30px;
+}
+
+.deal-content input {
+  width: 500px;
+  height: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+#subs-btn {
+  width: 100px;
+  height: 44px;
+  border-radius: 5px;
+  background: rgb(229, 84, 115);
+  color: white;
+  border: none;
+}
